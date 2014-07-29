@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><classes-list>
+    <day>1</day>
+    <class>
+        <time>11:30-12:50</time>
+        <name>Теория сложности</name>
+        <room>337</room>
+        <building>Центр информационных технологий</building>
+        <teacher>Нурмеев Н.Н.</teacher>
+    </class>
+    <class>
+        <time>14:40-16:00</time>
+        <name>Программная инженерия</name>
+        <room>112</room>
+        <building>Центр информационных технологий</building>
+    </class>
+    <day>2</day>
+    <class>
+        <time>10:00-11:20</time>
+        <name>Программирование</name>
+        <room>125</room>
+        <building>Центр информационных технологий</building>
+        <teacher>Абрамский М.М.</teacher>
+    </class>
+    <class>
+        <time>10:00-11:20</time>
+        <name>Программирование</name>
+        <room>116 (по т.п. 21)</room>
+        <building>Центр информационных технологий</building>
+        <teacher>Зиятдинов М.Т.</teacher>
+    </class>
+    <class>
+        <time>13:05-14:25</time>
+        <name>Теория систем и системный анализ</name>
+        <room>225</room>
+        <building>Центр информационных технологий</building>
+        <teacher>Чикрин Д.Е.</teacher>
+    </class>
+    <day>3</day>
+    <class>
+        <time>08:30-09:50</time>
+        <name>Теория сложности</name>
+        <building>Учебное здание № 2</building>
+        <teacher>Нурмеев Н.Н.</teacher>
+        <type>Потоковая лекция</type>
+    </class>
+    <class>
+        <time>13:05-14:25</time>
+        <name>Программирование</name>
+        <room>112</room>
+        <building>Центр информационных технологий</building>
+        <teacher>Абрамский М.М.</teacher>
+    </class>
+    <class>
+        <time>13:05-14:25</time>
+        <name>Программирование</name>
+        <room>116 (по т.п. 21)</room>
+        <building>Центр информационных технологий</building>
+        <teacher>Зиятдинов М.Т.</teacher>
+    </class>
+    <day>4</day>
+    <class>
+        <time>08:30-09:50</time>
+        <name>Вычислительные системы, сети и телекоммуникации</name>
+        <building>Учебное здание № 2</building>
+        <teacher>Чикрин Д.Е.</teacher>
+        <type>Потоковая лекция</type>
+    </class>
+    <day>5</day>
+    <class>
+        <time>16:10-17:30</time>
+        <name>Программная инженерия</name>
+        <room>17</room>
+        <building>Учебное здание № 2</building>
+    </class>
+    <day>6</day>
+    <class>
+        <time>08:30-09:50</time>
+        <name>Теория вероятностей и математическая статистика</name>
+        <building>Учебное здание № 2</building>
+        <teacher>Чупрунов А.Н.</teacher>
+        <type>Потоковая лекция</type>
+    </class>
+    <class>
+        <time>10:00-11:20</time>
+        <name>Вычислительные системы, сети и телекоммуникации</name>
+        <room>112</room>
+        <building>Центр информационных технологий</building>
+    </class>
+    <class>
+        <time>11:30-12:50</time>
+        <name>Теория вероятностей и математическая статистика</name>
+        <room>113</room>
+        <building>Центр информационных технологий</building>
+        <teacher>Чупрунов А.Н.</teacher>
+    </class>
+    <class>
+        <time>13:05-14:25</time>
+        <name>Базы данных</name>
+        <building>Центр информационных технологий</building>
+        <teacher>Зарипов Р.Г.</teacher>
+    </class>
+</classes-list>

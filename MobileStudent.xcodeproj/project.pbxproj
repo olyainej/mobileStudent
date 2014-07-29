@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		779C7697197FAF1200F43977 /* AddLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C7696197FAF1200F43977 /* AddLessonViewController.m */; };
 		77A495CE195AD36F00D7EDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A495CD195AD36F00D7EDD1 /* Foundation.framework */; };
 		77A495D0195AD36F00D7EDD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A495CF195AD36F00D7EDD1 /* CoreGraphics.framework */; };
 		77A495D2195AD36F00D7EDD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A495D1195AD36F00D7EDD1 /* UIKit.framework */; };
@@ -14,13 +15,17 @@
 		77A495DA195AD36F00D7EDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A495D9195AD36F00D7EDD1 /* main.m */; };
 		77A495DE195AD36F00D7EDD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A495DD195AD36F00D7EDD1 /* AppDelegate.m */; };
 		77A495E1195AD36F00D7EDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A495DF195AD36F00D7EDD1 /* Main.storyboard */; };
-		77A495E4195AD36F00D7EDD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A495E3195AD36F00D7EDD1 /* ViewController.m */; };
 		77A495E6195AD36F00D7EDD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A495E5195AD36F00D7EDD1 /* Images.xcassets */; };
 		77A495ED195AD36F00D7EDD1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A495EC195AD36F00D7EDD1 /* XCTest.framework */; };
 		77A495EE195AD36F00D7EDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A495CD195AD36F00D7EDD1 /* Foundation.framework */; };
 		77A495EF195AD36F00D7EDD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A495D1195AD36F00D7EDD1 /* UIKit.framework */; };
 		77A495F7195AD36F00D7EDD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77A495F5195AD36F00D7EDD1 /* InfoPlist.strings */; };
 		77A495F9195AD36F00D7EDD1 /* MobileStudentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A495F8195AD36F00D7EDD1 /* MobileStudentTests.m */; };
+		77A49603195AD78A00D7EDD1 /* Копия New-iOS-7-Style-Tab-Bar-Icons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77A49602195AD78A00D7EDD1 /* Копия New-iOS-7-Style-Tab-Bar-Icons.jpg */; };
+		77A4960C195ADEBB00D7EDD1 /* BordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4960B195ADEBB00D7EDD1 /* BordController.m */; };
+		77A49614195AEEC600D7EDD1 /* XML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 77A49613195AEEC600D7EDD1 /* XML.xml */; };
+		77B0EEA9197FD0CF00A5F0F8 /* BordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B0EEA8197FD0CF00A5F0F8 /* BordCell.m */; };
+		77B0EEAC197FE45B00A5F0F8 /* Bord.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B0EEAB197FE45B00A5F0F8 /* Bord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		779C7695197FAF1200F43977 /* AddLessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddLessonViewController.h; path = MobileStudent/AddLessonViewController.h; sourceTree = "<group>"; };
+		779C7696197FAF1200F43977 /* AddLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddLessonViewController.m; path = MobileStudent/AddLessonViewController.m; sourceTree = "<group>"; };
 		77A495CA195AD36F00D7EDD1 /* MobileStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A495CD195AD36F00D7EDD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		77A495CF195AD36F00D7EDD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +52,20 @@
 		77A495DC195AD36F00D7EDD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77A495DD195AD36F00D7EDD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		77A495E0195AD36F00D7EDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77A495E2195AD36F00D7EDD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77A495E3195AD36F00D7EDD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77A495E5195AD36F00D7EDD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		77A495EB195AD36F00D7EDD1 /* MobileStudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileStudentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A495EC195AD36F00D7EDD1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		77A495F4195AD36F00D7EDD1 /* MobileStudentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileStudentTests-Info.plist"; sourceTree = "<group>"; };
 		77A495F6195AD36F00D7EDD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77A495F8195AD36F00D7EDD1 /* MobileStudentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileStudentTests.m; sourceTree = "<group>"; };
+		77A49602195AD78A00D7EDD1 /* Копия New-iOS-7-Style-Tab-Bar-Icons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Копия New-iOS-7-Style-Tab-Bar-Icons.jpg"; sourceTree = "<group>"; };
+		77A4960A195ADEBB00D7EDD1 /* BordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BordController.h; sourceTree = "<group>"; };
+		77A4960B195ADEBB00D7EDD1 /* BordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BordController.m; sourceTree = "<group>"; };
+		77A49613195AEEC600D7EDD1 /* XML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XML.xml; sourceTree = "<group>"; };
+		77B0EEA7197FD0CF00A5F0F8 /* BordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BordCell.h; sourceTree = "<group>"; };
+		77B0EEA8197FD0CF00A5F0F8 /* BordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BordCell.m; sourceTree = "<group>"; };
+		77B0EEAA197FE45B00A5F0F8 /* Bord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bord.h; sourceTree = "<group>"; };
+		77B0EEAB197FE45B00A5F0F8 /* Bord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +128,7 @@
 				77A495DC195AD36F00D7EDD1 /* AppDelegate.h */,
 				77A495DD195AD36F00D7EDD1 /* AppDelegate.m */,
 				77A495DF195AD36F00D7EDD1 /* Main.storyboard */,
-				77A495E2195AD36F00D7EDD1 /* ViewController.h */,
-				77A495E3195AD36F00D7EDD1 /* ViewController.m */,
+				77B0EEA3197FCE9F00A5F0F8 /* Bord */,
 				77A495E5195AD36F00D7EDD1 /* Images.xcassets */,
 				77A495D4195AD36F00D7EDD1 /* Supporting Files */,
 			);
@@ -126,10 +138,12 @@
 		77A495D4195AD36F00D7EDD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				77A49602195AD78A00D7EDD1 /* Копия New-iOS-7-Style-Tab-Bar-Icons.jpg */,
 				77A495D5195AD36F00D7EDD1 /* MobileStudent-Info.plist */,
 				77A495D6195AD36F00D7EDD1 /* InfoPlist.strings */,
 				77A495D9195AD36F00D7EDD1 /* main.m */,
 				77A495DB195AD36F00D7EDD1 /* MobileStudent-Prefix.pch */,
+				77A49613195AEEC600D7EDD1 /* XML.xml */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +164,22 @@
 				77A495F5195AD36F00D7EDD1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77B0EEA3197FCE9F00A5F0F8 /* Bord */ = {
+			isa = PBXGroup;
+			children = (
+				779C7695197FAF1200F43977 /* AddLessonViewController.h */,
+				779C7696197FAF1200F43977 /* AddLessonViewController.m */,
+				77A4960A195ADEBB00D7EDD1 /* BordController.h */,
+				77A4960B195ADEBB00D7EDD1 /* BordController.m */,
+				77B0EEA7197FD0CF00A5F0F8 /* BordCell.h */,
+				77B0EEA8197FD0CF00A5F0F8 /* BordCell.m */,
+				77B0EEAA197FE45B00A5F0F8 /* Bord.h */,
+				77B0EEAB197FE45B00A5F0F8 /* Bord.m */,
+			);
+			name = Bord;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +261,8 @@
 				77A495E6195AD36F00D7EDD1 /* Images.xcassets in Resources */,
 				77A495D8195AD36F00D7EDD1 /* InfoPlist.strings in Resources */,
 				77A495E1195AD36F00D7EDD1 /* Main.storyboard in Resources */,
+				77A49603195AD78A00D7EDD1 /* Копия New-iOS-7-Style-Tab-Bar-Icons.jpg in Resources */,
+				77A49614195AEEC600D7EDD1 /* XML.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77A495E4195AD36F00D7EDD1 /* ViewController.m in Sources */,
+				779C7697197FAF1200F43977 /* AddLessonViewController.m in Sources */,
+				77A4960C195ADEBB00D7EDD1 /* BordController.m in Sources */,
+				77B0EEAC197FE45B00A5F0F8 /* Bord.m in Sources */,
 				77A495DE195AD36F00D7EDD1 /* AppDelegate.m in Sources */,
+				77B0EEA9197FD0CF00A5F0F8 /* BordCell.m in Sources */,
 				77A495DA195AD36F00D7EDD1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +495,7 @@
 				77A495FE195AD36F00D7EDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77A495FF195AD36F00D7EDD1 /* Build configuration list for PBXNativeTarget "MobileStudentTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +504,7 @@
 				77A49601195AD36F00D7EDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

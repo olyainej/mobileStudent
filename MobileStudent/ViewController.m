@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self.label setText:@"NEWS"];;
+    [self.tabBarItem setImage:[UIImage imageNamed:@"Копия New-iOS-7-Style-Tab-Bar-Icons.jpg"]];
 }
 
 - (void)didReceiveMemoryWarning
