@@ -21,6 +21,9 @@
     NSMutableString *bordTeacher;
     NSMutableString *bordType;
     NSMutableString *day;
+    NSMutableArray *days;
+   
+    NSArray *sections;
     Bord *bord;
    
 }
@@ -41,6 +44,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    sections = @[@"Monday",@"Tuesday"];
+    
     bord = [Bord sharedInstance];
      NSURL *url = [NSURL URLWithString:@"http://shelly.kpfu.ru/e-ksu/get_schedulle_aud?p_group_name=01-110"];
     NSURLRequest *request=[NSURLRequest requestWithURL:url
@@ -90,10 +96,13 @@ didStartElement:(NSString *)elementName
    
     currentElement = elementName;
     // NSLog(@"I use delegate. Current element: %@",elementName);
-//    if ([elementName isEqualToString:@"classes-list"]){
-//        day = [[NSMutableString alloc]init];
-//    }
+   if ([elementName isEqualToString:@"classes-list"]){
+       day = [[NSMutableString alloc]init];
+       days = [[NSMutableArray alloc ]init];
+       NSLog(@"THERE IS NO ERROR1");
+    }
    if ([elementName isEqualToString:@"class"]) {
+       day = [[NSMutableString alloc]init];
         currentTime = [[NSMutableString alloc]init];
        bordName = [[NSMutableString alloc]init];
        bordRoom = [[NSMutableString alloc]init];
@@ -105,9 +114,11 @@ didStartElement:(NSString *)elementName
 }
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
    // NSLog(@"CURRENT ELEMENT OF FOUNDCHARACTERS IS: %@",currentElement);
-//    if ([currentElement isEqualToString:@"day"]){
-//        [day appendString:string];
-//    }
+    if ([currentElement isEqualToString:@"day"]){
+       //  NSLog(@"THERE IS NO ERROR1");
+        [day appendString:string];
+      [days addObject:day];
+    }
     if ([currentElement isEqualToString:@"time"]) {
 		[currentTime appendString:string];
        // NSLog(@"%@",currentTime);
@@ -146,16 +157,18 @@ didStartElement:(NSString *)elementName
                                   bordBuilding,@"building",
                                   bordTeacher,@"teacher",
                                   bordType,@"type",
+                                  day,@"day",
                                   nil];
-       // if ([elementName isEqualToString:@"classes-list"]){
-           // NSMutableArray *daysItem = [NSMutableArray];
-          //  [daysItem addObject:day];
-          //  NSLog(@"%@",day);
-            
-        //}
+         NSMutableArray *daysItem = [[NSMutableArray alloc]init];
+      if ([elementName isEqualToString:@"class"]){
+         
+          [daysItem addObjectsFromArray:days];
+           // NSLog(@"%@",day);
+          
+       }
       
         [bord.news addObject:newsItem];
-        //NSLog(@"%@",newsItem);
+        NSLog(@"%@",daysItem);
        // NSLog(@"NEWS%@",bord.news);
         currentTime = nil;
         bordName = nil;
@@ -193,13 +206,20 @@ didStartElement:(NSString *)elementName
 {
 
     // Return the number of sections.
-    return 3;
+   
+    return 2;
 }
+
+//-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+//{
+//    return [monthTitle objectAtIndex:section];
+//}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"%d",bord.news.count);
+   // NSLog(@"%d",bord.news.count);
     return [bord.news count];
+   
     
 
 }

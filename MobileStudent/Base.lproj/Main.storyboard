@@ -61,6 +61,10 @@
                                 </connections>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="TFr-Iy-uDm" id="J6h-Ru-Xyv"/>
+                        </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Расписание" id="VdP-IB-xpO"/>
                     <navigationItem key="navigationItem" title="Расписание" id="S2A-Va-qAN">

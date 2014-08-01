@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface BordController : UITableViewController<NSXMLParserDelegate>{
+@interface BordController : UITableViewController<NSXMLParserDelegate, UITableViewDataSource, UITableViewDelegate>{
   
 //    NSMutableData *bordData;
    
@@ -27,7 +27,7 @@
 }
 
 @property (weak, nonatomic) IBOutlet UIView *bordCell;
-
+//@property (nonatomic, strong) NSMutableArray *monthTitle;
 //@property(nonatomic,retain) NSMutableData *bordData;
 //@property (nonatomic, retain) NSMutableArray *news;
 //@property (nonatomic, retain) NSString * currentElement;
